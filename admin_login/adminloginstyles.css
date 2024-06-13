@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin-top: 30px; */
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background: url("img/wallpaperflare.com_wallpaper\ \(5\).jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  .container {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 40px 40px;
+    width: 320px;
+    text-align: center;
+    /* background-color: blur; */
+    border-radius: 8px solid rgba(255,255,255,.2);
+
+    margin-bottom: 22px;
+    margin-top: 28px;
+  }
+  
+  #loginForm{
+    backdrop-filter: blur(2px);
+  }
+  h2 {
+   color: white;
+    margin-top: 0;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  button {
+    background-color: #1fb638;
+    color: black;
+    border: #ccc;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  } 
+  
+.admin-icon{
+  color :red;
+ }
+
+ .upper-div{
+  position: relative;
+ }
+
+ .admin-icon{
+  top: 5px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+ }
+ 
+ .lock-icon{
+  top: 5px;
+  position: absolute;
+  right: 0;
+ }
+
+.input {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.input::placeholder { 
+  color: black;
+}
+.input::placeholder { 
+  color: black;
+}
